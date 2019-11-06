@@ -1,5 +1,8 @@
+@import "bootstrap";
+
 body {
   background-color: #fafafa;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .top-nav {
@@ -14,4 +17,16 @@ body {
 .brand {
   color: #125688;
   font-size: 30px;
+  font-family: 'Pacifico', cursive;
+}
+
+top-nav .add a {
+  font-weight: bold;
+  color: #125688;
+  font-size: 16px;
+  padding-left: 8px;
+}
+
+.top-nav .add {
+  margin-top: 10px;
 }
